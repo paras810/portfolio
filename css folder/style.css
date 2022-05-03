@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .2s ease;
+    list-style: none;
+    font-family: sans-serif;
+    overflow-x: hidden;
+ 
+}
+body{
+    background-color: rgba(253, 240, 223, 0.948);
+}
+html{
+    font-size: 62.5%;
+}
+.btn{
+    color: white;
+    border-radius: 9999px;
+    border: none;
+    padding: 2rem 2.8rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 0 1.8rem;
+    cursor: pointer;
+}
+.btn-black{
+    background-color: black;
+    margin-top: 2.5rem;
+    padding: 2.8rem 6.3rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2.1rem 0.1rem;
+    /* border: 2px solid; */
+}
+.header .logo{
+    width: 125px;
+    cursor: pointer;
+}
+
+.header .navbar .navbar-list{
+    display: flex;
+}
+.header .navbar .navbar-list li{
+    padding: 0.1rem 1.8rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .navbar .navbar-list li a{
+   color: black;
+}
+.header .navbar .navbar-list li a:hover{
+   color: #ff4066;
+}
+.header .navbar .navbar-list .btn-red{
+    background-color: #ff4066;
+}
+.btn-red:hover{
+    box-shadow: 3px 2px 20px 5px rgb(0 0 0 / 20%);
+    margin-top: -.3rem;
+}
+.client-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    padding-left: 13rem;
+    margin-top: 10rem;
+    
+}
+.client-container .left-section{
+    /* border: 2px solid yellowgreen; */
+    width: 68vw;
+    height: 0%;
+    
+}
+.client-container .left-section .ready,
+.client-container .left-section .set,
+.client-container .left-section .grow{
+    font-size: 12rem;
+    font-weight: 600;
+}
+
+.client-container .left-section .grow-red{
+    color: #ff4066;
+}
+.client-container .left-section .about-client{
+    font-size: 2.4rem;
+    margin-top: 3rem;
+
+}
+
+
+.client-container  .client-img{
+    /* border: 5px solid rgb(213, 47, 47); */
+    position: relative;
+    top: -26rem;
+    left: 2rem;
+    width: 163%;
+}
+
+
+
+
+.client-container .right-section{
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+/* logo slider  */
+.slider-container{
+    /* border: 2px solid green; */
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.logo1{
+    width: 10rem;
+    height: 10rem;
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo5{
+    height: 63%;
+}
+
+/* quotes card */
+
+
+.quote-box{
+    /* border: 2px solid rgb(251, 8, 0); */
+    width: 110%;
+    height: auto;
+    background-color: rgb(0 0 0 / 10%);
+    margin-top: 3rem;
+}
+.quotes-container{
+    padding: 2rem 1rem;
+    /* border: 2px solid rgb(68, 255, 0); */
+    margin: 3rem 0;
+    
+}
+.first-row{
+    /* border: 2px solid rgb(226, 43, 122); */
+    display: flex;
+    justify-content: space-evenly;
+    width: 135%;
+    margin-left: 3rem;
+}
+.second-row{
+    /* border: 2px solid rgba(245, 89, 164, 0.839); */
+    display: flex;
+    justify-content: space-evenly;
+    width: 135%;
+    margin: 2rem 1rem 2rem 10rem;
+
+}
+.quote-card{
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid;
+    margin: 1rem 3rem;
+    border-radius: 2rem;
+}
+.quote-card .quote-text{
+    font-size: 1.7rem;
+}
+.quote-card .people{
+    display: flex;
+   margin-top: 2rem;
+
+}
+/* .quote-card .people .image{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+} */
+.quote-card .people .image img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-right: 1rem;
+}
+.quote-card .people .about-people{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: left;
+   gap: 1rem;
+   
+}
+.quote-card .people .about-people .people-name{
+   font-size: 1.7rem;
+   
+}
+.quote-card .people .about-people .people-position{
+   font-size: 1.7rem;
+}
+.quote-card .people .about-people .red-text{
+ color: #ff4066;
+   font-size: 1.7rem;
+}
+
+/* copy-container */
+.copy-container{
+    background-color: rgb(0 0 0 / 10%);
+}
+.copy-container .heading{
+    /* border: #ff4066 2px solid; */
+    font-size: 8rem;
+    text-align: center;
+    width: 98.5vw;
+}
+.copy-container .para{
+    /* border: #38ee0a 2px solid; */
+    font-size: 2.4rem;
+    text-align: center;
+    width: 98.5vw;
+     margin: 2rem 0;
+}
+.copy-container .big-card-container{
+    /* border: 2px solid rgb(248, 59, 22); */
+    /* background-color: cadetblue; */
+    display: flex;
+    width: 67%;
+    margin: 4rem auto;
+}
+.card-container img {
+/* border: 2px solid blue; */
+}
+.card-container .img-head{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+.card-container .para-img{
+    font-size:1.8rem;
+    text-align: center;
+
+}
+
+/* service container */
+.service-container{
+    background-color: black;
+    border-top-left-radius: 11rem;
+    border-top-right-radius: 11rem;
+    width: 135rem;
+}
+.service-container  .headers{
+    padding: 17.1rem 7.1rem 2.1rem 9.1rem;
+    font-size: 8rem;
+    color: white;
+    justify-content: left;
+}
+.service-container img{
+width: 1px;
+height: 1px;
+}
+.service-container .card-container{
+    /* border: 2px solid rgb(68, 255, 0); */
+    display: flex;
+    margin: 3rem 0 3rem 8rem;
+    padding-bottom: 4rem;
+}
+.service-container .card-container .card1{
+    background-color: white;
+    width: 27%;
+    margin: 0 2.6rem 0 2.6rem;
+    padding: 4rem 3rem;
+    box-shadow: 15px 18px 0px 1px #ff4066;
+    border-radius: .6rem;
+}
+.service-container .card-container .card1 .card-heading{
+    font-size: 2.6rem;
+}
+.service-container .card-container .card1 ul{
+    font-family: sans-serif;
+}
+.service-container .card-container .card1 ul li{
+    list-style: none;
+    padding: 1rem 0;
+    border-bottom: 3px solid #f87d9547;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    font-weight: inherit;
+    color: #444444;
+    text-transform: capitalize;
+
+}
+
+
+/* work start */
+
+.work-container{
+    /* border: 2px solid red; */
+}
+.work-container .work-contact{
+    /* border: 2px solid blue; */
+    display: flex;
+    margin: 35rem 0 3rem 0;
+    justify-content: space-between;
+    padding: 0 13rem;
+    font-weight: 800;
+}
+.work-container .work-contact .about-text{
+    /* font-size: 3rem;  */
+    display: flex;
+    align-items: center;
+    font-size: 8rem;
+    /* margin-top: 9rem; */
+     /* justify-content: center; */
+}
+.work-container .work-contact .btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-container .work-box-container{
+    /* border: 2px solid green; */
+    display: flex;
+    width: 173%;
+    padding: 1rem 13rem;;
+}
+.work-container .work-box{
+    /* border: 2px solid rgb(13, 189, 220); */
+    display: flex;
+    border-radius: 3rem;
+    margin-right: 3rem;
+}
+.work-container .work-box .text-btn{
+    background-color: #ff4066;
+    /* border: 2px solid white; */
+    padding: 0 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 76vh;
+}
+.text-btn {
+padding: 0rem;
+}
+.text-btn .work-text{
+    font-size: 4rem;
+    color: white;
+    font-weight: 800;
+    padding: 1rem 6rem 0rem 8rem;
+}
+.text-btn .work-text .btn{
+    padding: 0rem;
+    margin-top: 9rem;
+
+}
+.text-btn .img{
+    border: 2px solid ;
+    
+}
+
+
+
+
+
+.work-container .work-box-container .work-box img{
+    width: 104%;
+}
